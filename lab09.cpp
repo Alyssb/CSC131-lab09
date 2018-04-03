@@ -25,9 +25,15 @@ int main()
 {
     // TODO: Write a program that asks the user to enter a month (in numeric form), a day,
     // and a two-digit year.
+    std::cout << "enter a date like this: dd/mm/yy pls & ty <3 ";
+    std::string ogDate{};
+    std::getline(std::cin, ogDate);
+    std::cout << "is the date " << ogDate << "magic???? ";
+    if(isMagic(ogDate) == true)
+        std::cout << "Yes" << std::endl;
+    else
+        std::cout << "no, sry" << std::endl;
 
-
-    // TODO: Call isMagic to determine
 }
 
 bool isMagic(std::string date) {
