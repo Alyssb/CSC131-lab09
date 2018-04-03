@@ -8,9 +8,15 @@
  * Write a program that asks the user to enter a month (in numeric form), a day, and a
  * two-digit year. The program should then determine whether the month times the day is
  * equal to the year.
+ * CSC131 - Computational Thinking
+ * Missouri State University, Spring 2018
+ *
+ * @file: lab09.cpp
+ * @author: Alyssa Slayton <ajs41@missouristate.edu>
  */
 
-// TODO: Add any additional libraries needed to compile your project.
+#include <cstdlib>
+#include <iostream>
 #include <string>
 
 bool isMagic(std::string someDate);
@@ -20,7 +26,10 @@ int main()
     // TODO: Write a program that asks the user to enter a month (in numeric form), a day,
     // and a two-digit year.
 
+
     // TODO: Call isMagic to determine
 }
 
-// TODO: Implement the isMagic function
+bool isMagic(std::string date) {
+    return false;
+}
