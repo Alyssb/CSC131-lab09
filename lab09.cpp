@@ -19,8 +19,4 @@ int main()
     // TODO: Call isMagic to determine
 }
 
-bool isMagic(std::string someDate)
-{
-    // TODO: Implement me properly
-    return false;
-}
+// TODO: Implement the isMagic function
